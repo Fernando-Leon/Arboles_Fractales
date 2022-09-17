@@ -13,7 +13,7 @@ function draw() {
 
 function dibujarArbol(x, y, angulo, radio) {
     if (radio < 1) return;
-    (radio < 5) ? stroke("#e830ce")://Color hojas 
+    (radio < 5) ? stroke("#666f88")://Color hojas 
     stroke("#FFFFFF"); //Color Tallo
 
     let x2 = x + radio * cos(angulo - PI / 2)
@@ -26,6 +26,7 @@ function dibujarArbol(x, y, angulo, radio) {
     }
 
 }
+
 
 //Colors Dark  
 
@@ -59,4 +60,19 @@ azul1: #0000ff
 pink1: #ff0080
 pink2: #E63244
 violet: #830AC7
+
+
+All about me
+My first name is Fernando, my last name is León. I was born in Bomintzha, Tula. I am 18 years old.
+
+I am a student, at UTTT, in the multiplatform software development career.
+
+I like programming to solve problems.
+I also like to listen to music.
+
+The genres of music that I like the most are: pop in English, electronic music and melancholy in English.
+
+Sometimes I like to exercise at least three times a week.
+
+In free time I like to read and learn about new topics.
 */
