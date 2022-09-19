@@ -5,7 +5,7 @@ const containerCanva = document.getElementById("main-container");
 containerCanva.appendChild(canva);
 
 function draw() {
-    background("#000000")
+    background("#CCC")
     console.log(height);
     dibujarArbol(width / 2, height, 0, 70);
 }
@@ -13,8 +13,8 @@ function draw() {
 
 function dibujarArbol(x, y, angulo, radio) {
     if (radio < 1) return;
-    (radio < 5) ? stroke("#666f88")://Color hojas 
-    stroke("#FFFFFF"); //Color Tallo
+    (radio < 5) ? stroke("#2d572c")://Color hojas 
+    stroke("#6f432b"); //Color Tallo
 
     let x2 = x + radio * cos(angulo - PI / 2)
     let y2 = y + radio * sin(angulo - PI / 2)
